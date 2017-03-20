@@ -1,7 +1,5 @@
 K=int(input())
 N=int(input())
-
-
 time_left=210
 for i in range(N):
     time,Z=input().split()
