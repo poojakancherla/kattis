@@ -40,7 +40,7 @@ for i in range(cases):
         deMod=[value[0]]
         for k in range(1,len(value)):
             deMod.append(deMod[-1] + (value[k] - deMod[-1])%27)
-        
+
         degressive = deMod[:]
 
         for l in range(1, len(deMod)):
