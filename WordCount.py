@@ -1,0 +1,6 @@
+f = open('Story.txt', 'r')
+# data = f.read()
+# f.close()
+words = data.split(" ")
+num_words = len(words)
+print(words, num_words)
