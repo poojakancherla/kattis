@@ -1,3 +1,4 @@
+from decimal import Decimal
 n = int(input())
 for i in range(n):
     scores = [int(x) for x in input().split()]
@@ -8,5 +9,5 @@ for i in range(n):
     for i in scores:
         if i > avg:
             count +=1
-    above_avg = (count * 100)/(num_students)
+    above_avg = Decimal((count * 100)/(num_students))
     print((str(round(above_avg, 3))) + "%")
