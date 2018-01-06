@@ -3,7 +3,6 @@ nc = 0
 for i in nums:
     count = 0
     i = [int(x) for x in str(i)]
-    # print(i)
     for j in range(len(i) - 1):
         if i[j] < i[j+1]:
             count += 1
